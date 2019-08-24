@@ -1,0 +1,9 @@
+{
+  "name": "booking-backend",
+  "version": "1.0.0",
+  "description": "\"Booking application\"",
+  "main": "index.js",
+  "repository": "https://github.com/mnajjarian/booking-backend.git",
+  "author": "Mahdi Najjarian <mnajarian@gmail.com>",
+  "license": "MIT"
+}
