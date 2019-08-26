@@ -1,3 +1,23 @@
 type Query {
     info: String!
+    entry: [Entry!]!
+}
+
+type Entry {
+    type: String!
+    title: String!
+    description: String!
+    startAt: String!
+    endAt: String!
+    date: String!
+}
+
+type Mutation {
+    addEntry(type: String!
+    title: String!
+    description: String!
+    startAt: String!
+    endAt: String!
+    date: String!
+    ): [Entry!]!
 }

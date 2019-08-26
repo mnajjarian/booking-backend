@@ -26,3 +26,5 @@ httpServer.listen(
     { port: 3000 },
     (): void => console.log(`Server is now running on http://localhost:3000/graphql`)
 );
+
+export { app }
